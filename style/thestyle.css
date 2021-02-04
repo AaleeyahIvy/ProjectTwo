@@ -1,0 +1,68 @@
+h1 {
+  font-family: "Courgette", cursive;
+}
+body {
+  color: cornsilk;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+nav a {
+  display: inline-flex;
+  color: cornsilk;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: chocolate;
+}
+table, th, td {
+  border: 1px solid hotpink;
+  border-collapse: collapse;
+  padding: 5px;
+}
+#brown {
+  border-style: none;
+  background-color: chocolate;
+}
+#contact {
+  list-style-type: none;
+  border: 1px solid hotpink;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 5px;
+}
+#about {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+#title {
+  display: block;
+  font-family: "Courgette", cursive;
+  background-color: hotpink;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  position: fixed;
+}
+#image {
+  background-position: center;
+  padding: 10px;
+  margin: 10px;
+}
+form.a {
+  border: 1px solid hotpink;
+  padding: 5px;
+}
+a {
+  color: cornsilk;
+  text-decoration: none;
+}
