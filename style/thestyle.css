@@ -29,10 +29,6 @@ table, th, td {
   border-collapse: collapse;
   padding: 5px;
 }
-#brown {
-  border-style: none;
-  background-color: chocolate;
-}
 #contact {
   list-style-type: none;
   border: 1px solid hotpink;
@@ -58,11 +54,24 @@ table, th, td {
   padding: 10px;
   margin: 10px;
 }
-form.a {
+form {
+  color: cornsilk;
+  text-decoration: none;
   border: 1px solid hotpink;
   padding: 5px;
 }
-a {
-  color: cornsilk;
-  text-decoration: none;
+#ice-cream {
+  border-style: none;
+  background-color: chocolate;
+}
+#customer-name{
+  border-style: none;
+  background-color: chocolate;
+}
+#customer-email{
+  border-style: none;
+  background-color: chocolate;
+}
+#here{
+  color: chocolate;
 }
