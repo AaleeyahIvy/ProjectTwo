@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title id="title">The Cold Scoop</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style/thestyle.css"
+<meta charset="UTF-8">
+        <link rel="stylesheet" href="style/thestyle.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&display=swap" rel="stylesheet">
+        <title>The Cold Scoop</title>
         <body>
-            <title id="title" onmouseover="style.color='#00000000'" onmouseout="style.color='#d2691e'">The Cold Scoop</title>
-            <nav>
+            <header id="title" onmouseover="style.color='#00000000'" onmouseout="style.color='#d2691e'">The Cold Scoop</header>
+            <nav id="order">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="order.html">Order</a></li>
                 </ul>
-            </nav id="order">
+            </nav>
         <section>
             <h1>Order Here...</h1>
             <p>If you are having trouble picking a flavor ask for a taste test!</p>
-            <p>Prices and Flavors are <a href="index.html">here!</a><a/></p>
-        <form class="a">
+            <p>Prices and Flavors are <a id="here" href="index.html">here!</a></p>
+        <form>
             <label for="ice-cream">Pick flavors:</label>
-            <select id="brown" name="ice-cream">
+            <select id="ice-cream" name="ice-cream">
                 <option value="Poppin-Blueber">Poppin' Blueber'</option>
                 <option value="Dragonfruit-Cream">Dragonfruit Cream</option>
                 <option value="Snow-Vanilla">Snow Vanilla</option>
@@ -36,15 +35,14 @@
                 <option value="Customize-Here">Customize your order</option>
             </select>
             <label for="customer-name">Customer Name</label>
-            <input type="text" id="brown" name="customer-name">
+            <input type="text" id="customer-name" name="customer-name">
             <label for="customer-email">Email</label>
-            <input type="text" id="brown" name="customer-email">
-            <input id="brown" type="submit">
+            <input type="text" id="customer-email" name="customer-email">
+            <input id="submit" type="submit">
         </form>
-        </section>
-          <div id="image">
+        <div id="image">
             <img src="images/ice_cream1.jpeg" alt="Variety of Flavors" width="1000" height="300">
           </div>
+        </section>
         </body>
-    </head>
 </html>
